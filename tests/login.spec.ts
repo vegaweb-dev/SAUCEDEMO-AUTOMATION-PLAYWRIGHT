@@ -11,3 +11,14 @@ test.describe('Login Tests', () => {
     await expect(page).toHaveURL('https://www.saucedemo.com/inventory.html');
   });
 });
+
+test.describe('Login Test - Invalid Credentials', () => {
+  test('Should show error message for locked-out user', async ({ page }) => {
+    const loginPage = new LoginPage(page);
+    await loginPage.navigate();
+    await loginPage.login('locked_out_user', 'secret_sauce');
+    const errorMessage = await loginPage.getErrorMessage();
+    //In this line I verify that the message shown is the expected one.
+    expect(errorMessage).toContain('Epic sadface: Sorry, this user has been locked out');
+  });
+});
