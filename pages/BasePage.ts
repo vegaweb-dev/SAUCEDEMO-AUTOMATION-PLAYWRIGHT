@@ -18,4 +18,8 @@ export class BasePage {
   async click(selector: string) {
     await this.page.click(selector);
   }
+
+  async isVisible(selector: string): Promise<boolean> {
+    return await this.page.isVisible(selector);
+  }
 }

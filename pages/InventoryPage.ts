@@ -9,7 +9,7 @@ export class InventoryPage extends BasePage {
     await this.click(this.addToCartButton);
   }
 
-  async isBackPackInCart(): Promise<boolean> {
-    return this.page.isVisible(this.removeButton);
+  async isBackPackInCart() {
+    return this.isVisible(this.removeButton);
   }
 }
