@@ -1,7 +1,7 @@
 # 🎯 Saucedemo E2E Automation with Playwright + TypeScript
 
 This project aims to implement a professional-grade **end-to-end (E2E)** test suite for the [SauceDemo](https://www.saucedemo.com) application using modern tools and best practices.
-## 🔗 [View Playwright Report (GitHub Pages)](https://carlosvega.github.io/playwright-e2e-reporte/)
+## 🔗 [View Playwright Report (GitHub Pages)](https://vegaweb-dev.github.io/SAUCEDEMO-AUTOMATION-PLAYWRIGHT/)
 
 <br>
 🚀 Tech Stack
@@ -41,7 +41,7 @@ saucedemo-playwright/
    npx playwright test
    npx playwright show-report
    Or open the published report:
-   🔗[View on GitHub Pages](https://carlosvega.github.io/playwright-e2e-reporte/)
+   🔗[View on GitHub Pages](https://vegaweb-dev.github.io/SAUCEDEMO-AUTOMATION-PLAYWRIGHT/)
 
 
 # View report HTML report
