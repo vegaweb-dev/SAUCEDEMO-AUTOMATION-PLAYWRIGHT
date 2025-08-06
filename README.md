@@ -47,7 +47,7 @@ saucedemo-playwright/
 # View report HTML report
 ### npx playwright show-report
 ### click here to see report:
-## https://carlosvega.github.io/playwright-e2e-reporte/
+## https://vegaweb-dev.github.io/SAUCEDEMO-AUTOMATION-PLAYWRIGHT/
 
 
 # 🧪 Available Scripts
