@@ -4,7 +4,7 @@ This project aims to implement a professional-grade **end-to-end (E2E)** test su
 ## 🔗 [View Playwright Report (GitHub Pages)](https://carlosvega.github.io/playwright-e2e-reporte/)
 
 <br>
-# 🚀 Tech Stack
+🚀 Tech Stack
 
 - ### Playwright for E2E testing
 - ### TypeScript as the base language
